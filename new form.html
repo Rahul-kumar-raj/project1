@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>registration form</title>
+
+</head>
+<body bgcolor="wheat">
+
+
+<form name="reg-form" method="get">
+<fieldset>
+<legend><b>Register Here</b></legend>
+First name: <input type="text" name="firstname" id="firstname"><br/><br/>
+Last name: <input type="text" name="lastname" id="lastname"><br/><br/>
+password: <input type="password" name="password" id="password" maxlength="10"><br/><br/>
+Re-type: <input type="password" name="password" id="password" maxlength="10"><br/><br/>
+About you: <textarea rows="4" cols="50" name="about" id="about">
+</textarea><br/><br/>
+Choose your gender: <input type="radio" name="gender" id="gender" value="male">Male<input type="radio" name="gender" id="gender" value="female">Female<input type="radio" name="gender" id="gender" value="others">Others<br/><br/>
+<input type="checkbox" name="terms" id="terms" value="terms">I accept the term and condition of this site<br/><br/>
+
+Date of birth: <select name="month" id="month">
+<option>Month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option>
+</select>
+<select name="date" id="date">
+<option>Date</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option>
+<option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option></select>
+<input type="text" name="year" id="year" value="yyyy"><br/><br/>
+Your file: <input type="file" accept="image">
+<input type="submit"><br/><br/>
+Your registration code is: <input type="text" name="reg-code" id="reg-code" value="RK504"><BR/><BR/>
+<input type="button" name="visit" id="visit" value="visit google" onclick="window.open('http://www.google.com');">
+<input type="submit" name="submit" id="submit" value="Register now">
+</legend>
+</fieldset>
+</form>
+
+
+
+
+
+
+</body>
+</html>
